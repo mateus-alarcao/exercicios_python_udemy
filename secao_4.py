@@ -1,4 +1,3 @@
-"""
 #1
 numeros = list()
 cont = 2
@@ -8,6 +7,7 @@ while cont != 0:
     numeros.append(num)
 print(max(numeros))
 
+
 #2
 num = int(input("digite numeros positivo: "))
 if num > 0:
@@ -16,10 +16,9 @@ if num > 0:
 else:
     print("erro, numero negativo. Tente novamente")
 
+
 #3
 num = int(input())
 if num % 2 == 0:
     print('par')
 else: print('impar')
-
-"""
