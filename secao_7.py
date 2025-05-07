@@ -1,7 +1,7 @@
-"""
 #1
 def numero(inteiro):
     return inteiro * 2
+
 
 #2
 def extenso(data):
@@ -17,6 +17,7 @@ def extenso(data):
 data = input()
 extenso(data)
 
+
 #3
 lista_inteiros = list()
 def lista(*inteiros):
@@ -26,5 +27,3 @@ def lista(*inteiros):
     print(max(lista_inteiros))
 
 lista()
-
-"""
