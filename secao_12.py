@@ -1,4 +1,3 @@
-"""
 #1
 
 while True:
@@ -32,8 +31,9 @@ while True:
         break
 
 
-#2
 
+
+#2
 vogais = 'AEIOUaeiou'
 tvogal = 0
 tconso = 0
@@ -54,6 +54,8 @@ with open(nome, 'r') as arquivo:
 print(f'nesse arquivo há: {tvogal} vogais e {tconso} consoantes')
 
 
+
+
 #3
 nome = input("Digite o nome do arquivo: ")
 
@@ -68,5 +70,3 @@ with open(nome, 'r') as arquivo:
     print(f'O arquivo tem {len(linhas)} linha(s).')
     arquivo.seek(0)
     print("arquivo: ", arquivo.read())
-    
-"""
