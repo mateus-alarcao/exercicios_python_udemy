@@ -1,10 +1,10 @@
-"""
 #1
 lista = list()
 for x in range(1,7):
     res = int(input())
     lista.append(res)
 print(lista)
+
 
 #2
 lista = list()
@@ -18,6 +18,7 @@ lista[5] = nume
 for numeros in lista:
     print(numeros)
 
+
 #3
 cont = 0
 lista = list()
@@ -27,4 +28,3 @@ for x in range(1, 11):
     if res % 2 == 0:
         cont += 1
 print(cont)
-"""
