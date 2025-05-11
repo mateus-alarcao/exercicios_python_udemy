@@ -1,4 +1,4 @@
-#1
+#EXERCICIO 1
 
 while True:
     print("MANIPULAÇÃO DE ARQUIVO")
@@ -33,7 +33,7 @@ while True:
 
 
 
-#2
+#EXERCICIO 2
 vogais = 'AEIOUaeiou'
 tvogal = 0
 tconso = 0
@@ -56,7 +56,7 @@ print(f'nesse arquivo há: {tvogal} vogais e {tconso} consoantes')
 
 
 
-#3
+#EXERCICIO 3
 nome = input("Digite o nome do arquivo: ")
 
 # Escrevendo no arquivo (modo append)
